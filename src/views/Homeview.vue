@@ -24,32 +24,32 @@
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                Model S
+                <RouterLink to="/model/4"> Model S </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                Model 3
+                <RouterLink to="/model/1"> Model 3 </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                Model X
+                <RouterLink to="/model/2">Model X </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                Model Y
+                <RouterLink to="/model/"> Model Y </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                Solar Roof
+                <RouterLink to="/others"> Solar Roof </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                Solar Panel
+                <RouterLink to="/others"> Solar Panel </RouterLink>
               </li>
             </ul>
           </div>
@@ -59,17 +59,19 @@
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                Shop
+              <RouterLink to="/others"> Shop </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                Account
+              <RouterLink to="/others">Account  </RouterLink>
+                
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                Menu
+              <RouterLink to="/others"> Menu </RouterLink>
+                
               </li>
             </ul>
           </div>
@@ -83,7 +85,10 @@
               Order Online for
               <span
                 class="underline underline-offset-4 hover:decoration-2 cursor-pointer"
-                >Touchless Delivery</span
+                >
+                <RouterLink to="/others"> Touchless Delivery</RouterLink>
+                </span
+
               >
             </p>
           </div>
