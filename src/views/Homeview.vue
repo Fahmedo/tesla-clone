@@ -39,7 +39,7 @@
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                <RouterLink to="/model/"> Model Y </RouterLink>
+                <RouterLink to="/model/3"> Model Y </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
@@ -59,19 +59,17 @@
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-              <RouterLink to="/others"> Shop </RouterLink>
+                <RouterLink to="/others"> Shop </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-              <RouterLink to="/others">Account  </RouterLink>
-                
+                <RouterLink to="/others">Account </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-              <RouterLink to="/others"> Menu </RouterLink>
-                
+                <RouterLink to="/others"> Menu </RouterLink>
               </li>
             </ul>
           </div>
@@ -85,11 +83,9 @@
               Order Online for
               <span
                 class="underline underline-offset-4 hover:decoration-2 cursor-pointer"
-                >
-                <RouterLink to="/others"> Touchless Delivery</RouterLink>
-                </span
-
               >
+                <RouterLink to="/others"> Touchless Delivery</RouterLink>
+              </span>
             </p>
           </div>
           <!-- buttons -->
