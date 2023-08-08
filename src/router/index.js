@@ -1,18 +1,24 @@
-import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/Homeview.vue";
-import ModelView from "../views/ModelView.vue";
+import { createRouter, createWebHistory } from 'vue-router';
+import HomeView from '../views/Homeview.vue';
+import ModelView from '../views/ModelView.vue';
+import OtherView from '../views/otherPage.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: "/",
-      name: "home",
+      path: '/',
+      name: 'home',
       component: HomeView,
     },
     {
-      path: "/model/:id",
-      name: "model",
+      path: '/others',
+      name: 'others',
+      component: OtherView,
+    },
+    {
+      path: '/model/:id',
+      name: 'model',
       component: ModelView,
     },
   ],

@@ -99,7 +99,7 @@
             <button
               class="mt-2 capitalize bg-slate-200 w-96 text-grey-900 rounded-full h-10 md:mt-0 md:w-60"
             >
-              Existing Inventory
+              <RouterLink to="/others"> Existing Inventory </RouterLink>
             </button>
           </div>
           <!-- Arrow down -->
@@ -155,7 +155,7 @@
             <button
               class="mt-2 capitalize bg-slate-200 w-96 text-grey-900 rounded-full h-10 md:mt-0 md:w-60"
             >
-              Exixting Inventory
+              <RouterLink to="/others"> Existing Inventory </RouterLink>
             </button>
           </div>
         </div>
@@ -191,7 +191,7 @@
             <button
               class="mt-2 capitalize bg-slate-200 w-96 text-grey-900 rounded-full h-10 md:mt-0 md:w-60"
             >
-              Exixting Inventory
+              <RouterLink to="/others"> Existing Inventory </RouterLink>
             </button>
           </div>
         </div>
@@ -227,7 +227,7 @@
             <button
               class="mt-2 capitalize bg-slate-200 w-96 text-grey-900 rounded-full h-10 md:mt-0 md:w-60"
             >
-              Exixting Inventory
+              <RouterLink to="/others"> Existing Inventory </RouterLink>
             </button>
           </div>
         </div>
@@ -259,12 +259,12 @@
             <button
               class="capitalize bg-gray-900 w-96 text-white rounded-full h-10 md:w-60"
             >
-              Order now
+              <RouterLink to="/others"> Order now </RouterLink>
             </button>
             <button
               class="mt-2 capitalize bg-slate-200 w-96 text-grey-900 rounded-full h-10 md:mt-0 md:w-60"
             >
-              learn more
+              <RouterLink to="/others"> Learn more </RouterLink>
             </button>
           </div>
         </div>
@@ -324,7 +324,7 @@
             <button
               class="capitalize bg-gray-900 w-96 text-white rounded-full h-10 md:w-60"
             >
-              shop now
+              <RouterLink to="/others"> Shop now </RouterLink>
             </button>
           </div>
         </div>
@@ -334,7 +334,7 @@
 </template>
 
 <script setup>
-import { RouterLink } from "vue-router";
+import { RouterLink } from 'vue-router';
 </script>
 
 <style lang="scss" scoped></style>
