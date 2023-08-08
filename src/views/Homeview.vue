@@ -34,12 +34,12 @@
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                <RouterLink to="/model/2">Model X </RouterLink>
+                <RouterLink to="/model/3">Model X </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
               >
-                <RouterLink to="/model/3"> Model Y </RouterLink>
+                <RouterLink to="/model/2"> Model Y </RouterLink>
               </li>
               <li
                 class="py-1 px-3 hover:bg-slate-300 cursor-pointer hover:rounded-full"
